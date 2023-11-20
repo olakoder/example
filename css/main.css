@@ -47,7 +47,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5em 2em;
+    padding: 1em;
     background-color: white;
     box-shadow: 1px 3px 8px rgba(211, 211, 211, 0.81);
 }
@@ -484,7 +484,7 @@ nav ul {
 .testimonials {
     background-color: var(--Light-Dark);
     color: var(--Light);
-    padding: 4em 1em;
+    padding: 4em 0;
     text-align: center;
     line-height: 1.4;
 }
@@ -615,7 +615,7 @@ footer {
     .header-top {
         background-color: white;
         /* position: sticky; */
-        top: 0;
+        /* top: 0; */
     }
 
     .add-email-phone {
@@ -646,6 +646,12 @@ footer {
 
     .navigation, .close, .mobile-menu, .opaque {
         display: none;
+    }
+
+    header {
+        padding: 1em 2em;
+        position: sticky;
+        top: 0;
     }
 
     nav ul {
