@@ -450,6 +450,10 @@ nav ul {
     opacity: 1;
 }
 
+.team-title-position {
+    padding-top: 1em;
+}
+
 /* @keyframes team {
     0% {
         transform: scale(1);
@@ -671,7 +675,7 @@ footer {
 
     nav ul li a:hover {
         border-bottom: 1px solid var(--cac-2);
-        padding: 0.9em 0;
+        padding: 1.4em 0;
         transition: 0.6s;
     }
 
