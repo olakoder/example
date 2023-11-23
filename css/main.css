@@ -474,6 +474,7 @@ nav ul {
     flex-direction: column;
     gap: 2em;
     background-color: var(--Light);
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .client {
@@ -491,6 +492,7 @@ nav ul {
     padding: 4em 0;
     text-align: center;
     line-height: 1.4;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .test-feature {
@@ -526,6 +528,7 @@ nav ul {
     color: var(--cac-1);
     text-align: center;
     padding: 4em 0;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .connect a {
@@ -549,6 +552,7 @@ nav ul {
 .bottom {
     text-align: center;
     padding: 4em 2em;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .add {
@@ -592,6 +596,7 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* END */
 
