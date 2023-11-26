@@ -329,7 +329,9 @@ nav ul {
     text-decoration: none;
     background-color: var(--Light);
     border: 1.5px solid var(--Dark);
-    padding: 0.7em ;
+    padding: 0.7em;
+    /* width: 80%; */
+    text-align: center;
     color: var(--Dark);
     font-weight: bold;
     border-radius: 10px;
@@ -338,7 +340,12 @@ nav ul {
 .features a:hover {
     background-color: var(--Light);
     color: var(--Dark);
+    /* width: 45%; */
+
+    /* padding: 0.8em 0; */
+
     cursor: pointer;
+    box-shadow: 1px 1px 1px lightgray;
     border: 1.5px solid var(--Light-Dark);
     transition: 0.6s;
 }
