@@ -490,6 +490,16 @@ nav ul {
     align-items: center;
     gap: 2em;
 }
+
+.client img {
+    width: 5em;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.client img:hover {
+    width: 6em;
+}
 /* END */
 
 /* ///////////////TESTIMONIALS/////////////// */
