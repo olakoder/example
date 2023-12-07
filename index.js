@@ -5,6 +5,7 @@ menu.addEventListener('click', hamburger)
 collapse.addEventListener('click', close) 
 
 function hamburger() {
+    // console.log ('why me')
     document.querySelector('.mobile-menu').classList.add('hide')
     document.querySelector('.close').classList.add('hide1')
     document.querySelector('.navigation').classList.add('active')

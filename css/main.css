@@ -180,6 +180,34 @@ nav ul {
     height: 4em;
 }
 
+.get-start {
+    padding-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.get-start a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.get-started:hover {
+    border: 2px solid var(--Logo-2);
+    color: white;
+    background: none;
+    color: var(--Logo-2);
+    /* font-weight: bold; */
+}
+
+.get-started {
+    background-color: var(--Logo-2);
+    padding: 0.8em 1em;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: all 1s ease;
+}
+
 .met-cac {
     background-color: var(--Light);
     padding: 1em 0;
