@@ -224,6 +224,11 @@ nav ul {
     padding: 1em 0;
 }
 
+.pay {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
 /* ABOUT & OTHERS */
 .brand-about {
     display: flex;
